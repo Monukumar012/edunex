@@ -1,0 +1,25 @@
+.speedDial{
+    position: fixed;
+    right: 0.6vmax;
+    top: 0vmax;
+    border-radius: 100%;
+    
+}
+.speedDial{
+    margin: 0 2rem;
+    height: 56px;
+    width: 56px;
+}
+
+.speedDialIcon{
+    /* overflow: hidden; */
+    
+    height: 38px;
+    width: 38px;
+    border-radius: 100%;
+
+}
+
+.speedDialAction{
+    padding: 2rem;
+}

@@ -1,0 +1,93 @@
+.profile-main{
+    /* padding: 1.5rem 2rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.profile-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    justify-content: center;
+}
+
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    min-width: 40vw;
+}
+
+.bottom-left>h1{
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.bottom-left-inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 0.6rem;
+}
+
+
+.bottom-left-inner h4{
+    letter-spacing: 1px;
+}
+
+.bottom-left-inner p{
+    padding-left: 0.6rem;
+    letter-spacing: 1px;
+}
+
+.bottom-right{
+    min-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.bottom-right>h1{
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.profile-top button {
+
+    padding: 0.5rem 1rem;
+    /* margin-bottom: 0.5rem; */
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .profile-top button:hover {
+    background: #0d2030;
+    color: aliceblue;
+  }
+
+
+@media screen and (max-width:900px) {
+    .profile-bottom{
+        flex-direction: column;
+
+        justify-content: center;
+    }
+}

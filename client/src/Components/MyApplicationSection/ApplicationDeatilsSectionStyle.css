@@ -1,0 +1,70 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+}
+
+.main-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-1 h1{
+    text-align: center;
+}
+
+.main-1-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-1-1 p{
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin-left:2rem;
+}
+
+
+
+.main-1 button{
+    margin: 1rem;
+    background-color: rgb(47, 0, 255);
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 5rem;
+}
+
+
+.main-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+
+}
+
+.main-2 ul{
+    margin: 1rem;
+}
+
+
+.main-2 li{
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width:800px) {
+    .main-2{
+        margin-left: 0rem;
+    }
+}

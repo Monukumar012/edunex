@@ -1,0 +1,40 @@
+.service{
+    padding: 4rem 6rem;
+    /* background-color: rgb(136, 255, 89); */
+}
+
+
+.service-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+
+.service-top h2{
+    font-size: 4rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.service-top p{
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+}
+
+.service-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+@media screen and (max-width:700px) {
+
+    .service{
+            padding: 4rem 4rem;
+    }
+}
